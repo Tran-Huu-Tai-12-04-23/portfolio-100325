@@ -9,20 +9,11 @@ const AboutMe = () => {
         <div className="content max-w-2xl">
           <h2 className="text-[#4ECCA3] text-2xl font-bold mb-6">WHO I AM?</h2>
           <p className="text-lg leading-relaxed">
-            Hello! I’m Nazmul Hossain, a passionate JavaScript developer
-            specializing in creating innovative web solutions and user-friendly
-            interfaces. As the creator of the{" "}
-            <a className="text-[#4ECCA3] px-2" href="https://olova.js.org/">
-              OlovaJS
-            </a>{" "}
-            UI Framework, I’m dedicated to simplifying development workflows and
-            pushing the boundaries of JavaScript frameworks. My focus is on
-            making web development faster, easier, and accessible to all
-            developers. Currently, I’m expanding into backend development to
-            grow as a full-stack developer and create seamless, robust web
-            applications. I’m a lifelong learner and innovator, driven by a
-            desire to contribute to the developer community with new ideas and
-            tools that deliver real value.
+            Hello! I’m <a className="text-[#4ECCA3] px-2" href="#">
+              Tran Huu Tai
+            </a>, a passionate full-stack developer with one year of experience at ApeTechs Solution.
+At my company, I primarily work with NestJS and React Native, building scalable and efficient applications. However, my vision as a full-stack developer goes beyond just frameworks and technologies. I believe that a true full-stack developer is not defined by specific tools but by the ability to analyze problems, design effective solutions, and adapt based on experience.
+I’m continuously learning and expanding my expertise to become a well-rounded problem solver, capable of building seamless and impactful applications. My goal is to refine my skills, explore new technologies, and contribute meaningful solutions to the developer community.
           </p>
         </div>
          <DevArtProfile/>

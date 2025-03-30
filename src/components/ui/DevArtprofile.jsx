@@ -71,7 +71,7 @@ export default function DevArtProfile() {
                 <div className="bg-gradient-to-br from-slate-800 to-slate-900 h-full w-full flex items-center justify-center">
                   {/* Replace with actual avatar - using Image component */}
                   <img
-                    src="https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/03/full_stack_web_developer_salary-1.jpg"
+                    src="https://firebasestorage.googleapis.com/v0/b/manager-project-3bc13.appspot.com/o/about.png?alt=media&token=59ec29b7-79b4-4b59-a00a-583acbb2829b"
                     alt="Developer Avatar"
                     width={'100%'}
                     height={'100%'}

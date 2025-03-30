@@ -49,31 +49,32 @@ const AnimatedGrid = () => {
 
 export default function Hero() {
   const words = [
-    "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
+    "Full-Stack Developer",
+    "JavaScript Developer",
     "Learning MARN Stack",
-    "Linux & GitHub for DevOps Enthusiast",
+    "Linux & GitHub for DevOps",
   ];
 
   const [code] = useState(`
 const profile = {
-    name: 'Nazmul Hossain',
-    title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
+    name: 'Trần Hữu Tài',
+    title: 'Full-Stack Developer | Problem Solver',
     skills: [
         'React', 'NextJS', 'Redux', 'Express',
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'Discord Development'
+        'MySQL', 'MongoDB', 'Docker', 'TypeScript',
+        , 'Git', 'Linux', 'Discord Development',
+        'Java', '.net', 'React Native', 'Android Kotlin',
     ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: 1, 
     hireable: function() {
         return (
             this.hardWorker &&
             this.problemSolver &&
             this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.yearsOfExperience >= 1
         );
     }
 };
@@ -118,10 +119,10 @@ const profile = {
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">
                   <SparklesText text="Hello" />
                   <span className="relative inline-block">
-                    I'm
+                    {"I'm"}
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Nazmul Hossain
+                      A Full-Stack Developer
                     </span>
                   </span>
                 </h1>
@@ -142,7 +143,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks
+                  JavaScript lover 🚀  | Problem Solver
                   and coding the future 💻✨
                 </p>
               </div>

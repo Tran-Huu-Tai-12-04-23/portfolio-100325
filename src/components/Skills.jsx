@@ -5,18 +5,18 @@ import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
 import {
   FaAws,
   FaDocker,
+  FaDonate,
   FaFigma,
   FaGitAlt,
+  FaJava,
   FaLinux,
   FaNodeJs,
-  FaPython,
-  FaReact,
+  FaReact
 } from "react-icons/fa";
 import { FcWorkflow } from "react-icons/fc";
 import { MdAnimation } from "react-icons/md";
 import {
   SiFirebase,
-  SiGraphql,
   SiJest,
   SiMongodb,
   SiNextdotjs,
@@ -26,7 +26,7 @@ import {
   SiTypescript,
   SiVercel,
   SiVite,
-  SiWebpack,
+  SiWebpack
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import TechStack from "./globe";
@@ -103,8 +103,12 @@ const SkillsSection = () => {
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
         {
-          name: "Python",
-          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+          name: "Java Spring Boot",
+          icon: <FaJava className="w-4 h-4 text-[#3776AB]" />,
+        },
+          {
+          name: "#Net",
+          icon: <FaDonate className="w-4 h-4 text-[#3776AB]" />,
         },
         {
           name: "PostgreSQL",
@@ -118,10 +122,7 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+      
       ],
     },
     {

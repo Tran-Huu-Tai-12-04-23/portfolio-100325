@@ -144,32 +144,25 @@ const Experience = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
-      description: "Worked on developing and customizing WordPress websites for clients globally.",
+      title: "Study Information Technology",
+      company: "Ton Duc Thang University",
+      period: "2021 - Present",
+      description: "Pursuing a degree in Information Technology with a focus on software development and web technologies.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Intern FullStack Developer",
+      company: "ApeTechs Solutions",
+      period: "12-2023 - 5-2024",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Intern as a FullStack Developer, focusing on React Native and NestJs. Gained experience in building web applications and collaborating with cross-functional teams.",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
+      title: "Fresher FullStack Developer",
+      company: "ApeTechs Solutions",
       period: "2023 - Present",
-      description: "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
-    },
-     {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
-      description: "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+      description: "FullStack Developer, focusing on React Native and NestJs. Gained experience in building web applications and collaborating with cross-functional teams.",
     },
   ]
 
@@ -260,7 +253,7 @@ const Experience = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              "Navigating through the stars of my professional universe"
+           Navigating through the stars of my professional universe
             </motion.p>
 
             <motion.div
